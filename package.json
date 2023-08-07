@@ -1,0 +1,16 @@
+{
+	"name": "@react-native-ui-components/typescript-config",
+	"version": "1.0.0",
+	"main": "index.json",
+	"repository": "git@github.com:react-native-ui-components/typescript-config.git",
+	"author": "Morgan Barrett <morganbarrett@icloud.com>",
+	"license": "MIT",
+	"prettier": "@react-native-ui-components/prettier-config",
+	"scripts": {
+		"format": "npx prettier --write ."
+	},
+	"devDependencies": {
+		"@react-native-ui-components/prettier-config": "^1.0.0",
+		"prettier": "^3.0.1"
+	}
+}
